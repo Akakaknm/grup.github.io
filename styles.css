@@ -1,0 +1,80 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.profile {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.profile p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.button-container {
+    width: 90%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #444;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-logo {
+    width: 50px; /* ukuran logo */
+    height: 50px; /* ukuran logo */
+    margin-right: 10px; /* jarak antara logo dan teks */
+    border-radius: 5px; /* jika ingin sudutnya membulat */
+}
+
+.button:hover {
+    background-color: #444;
+}
